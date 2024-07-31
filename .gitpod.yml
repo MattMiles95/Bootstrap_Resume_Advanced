@@ -9,8 +9,6 @@ ports:
     onOpen: open-preview
 vscode:
   extensions:
-    - ms-python.debugpy
-    - formulahendry.auto-close-tag
     - eventyret.bootstrap-4-cdn-snippet
     - hookyqr.beautify
     - matt-rudge.auto-open-preview-panel
@@ -20,6 +18,9 @@ vscode:
 
     - ms-python.python
 
-
-    - ms-toolsai.vscode-jupyter-cell-tags
     - ms-toolsai.vscode-jupyter-slideshow
+    - ms-python.debugpyscode-jupyter-slideshow
+hon.debugpyscode-jupyter-slideshow
+deshow
+hon.debugpyscode-jupyter-slideshow
+
