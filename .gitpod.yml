@@ -1,3 +1,4 @@
+---
 image:
   file: .gitpod.dockerfile
 tasks:
@@ -6,7 +7,6 @@ tasks:
   - command: . ${GITPOD_REPO_ROOT}/.vscode/uptime.sh &
 ports:
   - port: 8000
-    onOpen: open-preview
 vscode:
   extensions:
     - eventyret.bootstrap-4-cdn-snippet
@@ -15,12 +15,6 @@ vscode:
     - ms-toolsai.jupyter
     - ms-toolsai.jupyter-keymap
     - ms-toolsai.jupyter-renderers
-
     - ms-python.python
-
     - ms-toolsai.vscode-jupyter-slideshow
-    - ms-python.debugpyscode-jupyter-slideshow
-hon.debugpyscode-jupyter-slideshow
-deshow
-hon.debugpyscode-jupyter-slideshow
-
+    - ms-python.debugpyscode-jupyter-slideshowhon.debugpyscode-jupyter-slideshowdeshowhon.debugpyscode-jupyter-slideshow
