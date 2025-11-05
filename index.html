@@ -1,227 +1,288 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
     <!-------------------------------------------- Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Lewis Murphy‑Parry — psychotherapist in London offering compassionate, confidential therapy for adults. In‑person and online sessions." />
+    <meta name="theme-color" content="#111111" />
 
     <!-------------------------------------------- Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-        type="text/css">
-    
+        type="text/css" />
+
     <!-------------------------------------------- Title -->
-    <title>Matt Miles | Home</title>
+    <title>Lewis Murphy‑Parry | Psychotherapist, London</title>
 </head>
 
 <body>
     <!-------------------------------------------- HEADER -->
     <header>
-        <div class="row no-gutters">
-            <a href="index.html" class="col-md-4 logo"></a>
-            <div class="col-md-8">
+        <div class="row no-gutters align-items-stretch">
+            <a href="#home" class="col-md-3 logo" aria-label="Lewis Murphy-Parry — Home"></a>
+            <div class="col-md-9 d-flex flex-column header-right">
                 <div class="row bg-color-name-title no-gutters">
                     <div class="col heading">
-                        <h1 class="name">Matt Miles</h1>
-                        <h2 class="title">Full Stack Developer</h2>
+                        <h1 class="name mb-1">Lewis Murphy-Parry</h1>
+                        <h2 class="title">Psychotherapist — London</h2>
                     </div>
                 </div>
-                <div class="row no-gutters">
+                <div class="row no-gutters tabs-row mt-auto">
                     <div class="col">
-                        <ul id="nav" class="list-inline menucontainer row">
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                        <ul id="nav" class="list-inline menucontainer row mb-0" role="navigation" aria-label="Primary">
+                            <li class="col-6 col-sm-3 ui-menu-color-resume menuitem">
+                                <a href="#about" class="hvr-sweep-to-bottom">
+                                    <i class="fa fa-user" aria-hidden="true"></i><span>About</span>
+                                </a>
                             </li>
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
-                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                            <li class="col-6 col-sm-3 ui-menu-color-interests menuitem">
+                                <a href="#services" class="hvr-sweep-to-bottom">
+                                    <i class="fa fa-heart" aria-hidden="true"></i><span>Services</span>
+                                </a>
                             </li>
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
+                            <li class="col-6 col-sm-3 ui-menu-color-github menuitem">
+                                <a href="#fees" class="hvr-sweep-to-bottom">
+                                    <i class="fa fa-gbp" aria-hidden="true"></i><span>Fees</span>
+                                </a>
                             </li>
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem">
-                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
-                            </li>
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem">
-                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-                            </li>
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-download menuitem">
-                                <a href="assets/cv/matt_miles_cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+                            <li class="col-6 col-sm-3 ui-menu-color-contact menuitem">
+                                <a href="#contact" class="hvr-sweep-to-bottom">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i><span>Contact / Book</span>
+                                </a>
                             </li>
                         </ul>
+
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    
-    <!-------------------------------------------- MAIN CONTENT -->
-    <section class="container-fluid">
+
+    <!-------------------------------------------- HERO / NOTICE -->
+    <section id="home" class="container-fluid py-0">
         <div class="row">
-            
             <!-------------------------------------------- PERSONAL INFO -->
-            <div class="col-md-4 bg-color-personal-info section-column">
+            <aside class="col-md-3 bg-color-personal-info section-column" aria-label="Practice details">
                 <div class="col-12">
-                    <h3 class="section-heading uppercase">Personal Info</h3>
+                    <h3 class="section-heading uppercase">Practice Info</h3>
                 </div>
                 <div class="personal-info-item">
                     <p>
-                        <i class="fa-solid fa-id-card personal-info-icon"></i> 
-                        Matt Miles
+                        <i class="fa-solid fa-id-card personal-info-icon" aria-hidden="true"></i>
+                        Lewis Murphy‑Parry
                     </p>
                 </div>
                 <div class="personal-info-item">
                     <p>
-                        <i class="fa-solid fa-venus-mars personal-info-icon"></i> 
-                        He / Him
+                        <i class="fa-solid fa-location-dot personal-info-icon" aria-hidden="true"></i>
+                        London, United Kingdom
                     </p>
                 </div>
                 <div class="personal-info-item">
                     <p>
-                        <i class="fa-solid fa-location-dot personal-info-icon"></i> 
-                        South West, United Kingdom
+                        <i class="fa-regular fa-envelope personal-info-icon" aria-hidden="true"></i>
+                        <a href="mailto:hello@lewismurphyparry.co.uk">hello@lewismurphyparry.co.uk</a>
                     </p>
                 </div>
                 <div class="personal-info-item">
                     <p>
-                        <i class="fa-regular fa-envelope personal-info-icon"></i>  
-                        matt_miles2@live.co.uk
+                        <i class="fa-solid fa-phone personal-info-icon" aria-hidden="true"></i>
+                        <a href="tel:+44" aria-label="Practice phone">+44 (0)•••• ••••••</a>
                     </p>
                 </div>
                 <div class="personal-info-item">
                     <p>
-                        <i class="fa-brands fa-github personal-info-icon"></i>  
-                        github.com/MattMiles95
+                        <i class="fa-solid fa-video personal-info-icon" aria-hidden="true"></i>
+                        In‑person & Online sessions
                     </p>
                 </div>
-            </div>
-            
-            <!-------------------------------------------- ABOUT ME -->
-            <div class="col-md-8 bg-color-three-reasons section-column">
+                <div class="personal-info-item">
+                    <p>
+                        <i class="fa-solid fa-clock personal-info-icon" aria-hidden="true"></i>
+                        Weekdays — daytime & early evening
+                    </p>
+                </div>
+                <div class="personal-info-item">
+                    <p>
+                        <i class="fa-solid fa-info-circle personal-info-icon" aria-hidden="true"></i>
+                        <small>Not an emergency service. If you’re in crisis, call <strong>999</strong> or <strong>NHS
+                                111</strong>, or contact <a href="https://www.samaritans.org/" target="_blank"
+                                rel="noopener">Samaritans</a>.</small>
+                    </p>
+                </div>
+
+                <div class="mt-3">
+                    <a class="btn btn-primary btn-block" href="#contact" aria-label="Book a session">Book a session</a>
+                </div>
+            </aside>
+
+            <!-------------------------------------------- ABOUT / APPROACH CARDS -->
+            <div class="col-md-9 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading uppercase">About Me</h3>
+                        <h3 id="about" class="section-heading uppercase">About</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-6">
                         <div class="row">
                             <div class="col-2">
-                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+                                <i class="three-reasons-icon fa fa-heart" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
+                                <h4 class="three-reasons-heading uppercase">How I work</h4>
                                 <p>
-                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical
-                                    experience that I bring to every project.
+                                    I offer a warm, collaborative space to explore what’s troubling you at your own
+                                    pace. Sessions are confidential and tailored to your needs, drawing on contemporary,
+                                    evidence‑informed approaches.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-6">
                         <div class="row">
                             <div class="col-2">
-                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+                                <h4 class="three-reasons-heading uppercase">Who I help</h4>
                                 <p>
-                                    I follow form as well as function. I understand the aesthetics of effective design,
-                                    which when combined with speed, security and relaiblility, create a great
-                                    user-experience.
+                                    Adults seeking support with anxiety, low mood, stress and burnout, life changes,
+                                    self‑esteem, relationships, and feeling stuck. Short‑term or open‑ended therapy
+                                    available.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-6 col-md-6">
                         <div class="row">
                             <div class="col-2">
-                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                                <i class="three-reasons-icon fa fa-handshake-o" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+                                <h4 class="three-reasons-heading uppercase">What to expect</h4>
                                 <p>
-                                    I work quickly and effectively in getting things built and working across the stack.
-                                    I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm
-                                    also a self-starter when working solo.
+                                    An initial consultation to understand your goals, followed by weekly 50‑minute
+                                    sessions. We’ll regularly review progress together.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-------------------------------------------- SERVICES -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <h3 id="services" class="section-heading uppercase">Services</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="p-3 border rounded h-100">
+                            <h5 class="mb-2"><i class="fa fa-comments" aria-hidden="true"></i> Individual Therapy</h5>
+                            <p class="mb-0">Weekly, 50‑minute sessions. In‑person (London) or secure video. Short‑term
+                                (6–12 sessions) or open‑ended.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="p-3 border rounded h-100">
+                            <h5 class="mb-2"><i class="fa fa-laptop" aria-hidden="true"></i> Online Therapy</h5>
+                            <p class="mb-0">Therapy from the comfort of your home via encrypted video platform. UK
+                                residents only.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------------------------------------- FEES -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <h3 id="fees" class="section-heading uppercase">Fees</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="p-3 border rounded h-100">
+                            <h5 class="mb-1"><i class="fa fa-gbp" aria-hidden="true"></i> Session fee</h5>
+                            <p class="mb-1">£<strong>XX</strong> per 50‑minute session (in‑person or online).</p>
+                            <p class="mb-0"><small>Limited low‑cost spaces available — please enquire.</small></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="p-3 border rounded h-100">
+                            <h5 class="mb-1"><i class="fa fa-info-circle" aria-hidden="true"></i> Practicalities</h5>
+                            <ul class="mb-0 pl-3">
+                                <li>Payments by bank transfer; receipts available.</li>
+                                <li>48‑hour cancellation policy.</li>
+                                <li>Confidentiality in line with professional guidelines.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------------------------------------- CONTACT / BOOK -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <h3 id="contact" class="section-heading uppercase">Contact / Book</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <p>
+                            To arrange an initial consultation or ask a question, please email <a
+                                href="mailto:hello@lewismurphyparry.co.uk">hello@lewismurphyparry.co.uk</a> or use the
+                            form below. I aim to reply within two working days.
+                        </p>
+                        <form action="https://formspree.io/f/your-id" method="POST" class="mb-3"
+                            aria-label="Contact form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" class="form-control" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" class="form-control" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send enquiry</button>
+                        </form>
+                        <p class="mb-0"><small>By submitting this form you agree to be contacted by email. Your details
+                                are stored only for the purpose of responding to your enquiry.</small></p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-    
+
     <!-------------------------------------------- FOOTER -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku, with the capacity for
-                    structural and design thinking.
+                    Private psychotherapy practice in London. In‑person and online therapy for adults. This website does
+                    not provide medical advice.
                 </p>
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download</h5>
+            <div class="col-sm-6">
+                <h5 class="uppercase general-sub">Professional</h5>
                 <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
-                    <a href="assets/cv/matt_miles_cv.pdf" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
-                    </a>
+                    <small>Professional membership/registration details can be listed here once confirmed.</small>
                 </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">X / Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-pinterest" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
             </div>
         </div>
     </footer>
 
     <!-------------------------------------------- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/fadb375f06.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
